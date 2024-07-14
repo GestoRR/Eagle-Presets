@@ -1,0 +1,51 @@
+# Default ASSIGN Configuration Script
+#
+# This file can be used to configure the editor windows.
+
+#GENERAL:
+ASSIGN C+A ADD;
+ASSIGN C+C COPY;
+ASSIGN C+D DELETE;
+ASSIGN C+G GROUP;
+ASSIGN A+X MOVE;
+ASSIGN C+N NAME;
+ASSIGN C+V VALUE
+ASSIGN C+P PASTE
+ASSIGN C+T TEXT;
+ASSIGN C+I INFO;
+ASSIGN C+Z UNDO;
+ASSIGN C+Y REDO;
+ASSIGN C+Q SHOW;
+
+
+BRD:
+ASSIGN C+W ROUTE;
+ASSIGN C+L run length-freq-ri.ulp;
+ASSIGN C+R RIPUP;
+ASSIGN CS+R RIPUP@;;
+ASSIGN C+E ratsnest;
+ASSIGN A+1 display preset_standard;
+ASSIGN A+2 display preset_top;
+ASSIGN A+3 display preset_bottom;
+ASSIGN A+4 display none pads vias tplace tnames tstop tcream trestrict;
+ASSIGN A+5 display none pads vias bplace bnames bstop bcream brestrict;
+
+
+SCH:
+ASSIGN C+W NET;
+ASSIGN C+L LABEL XREF; 
+
+
+LBR:
+
+
+DEV:
+ 
+
+SYM:
+ 
+
+
+PAC:
+
+
