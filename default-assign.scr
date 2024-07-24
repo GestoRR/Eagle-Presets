@@ -16,13 +16,14 @@ ASSIGN C+I INFO;
 ASSIGN C+Z UNDO;
 ASSIGN C+Y REDO;
 ASSIGN C+Q SHOW;
+ASSIGN C+M MIRROR;
 
 
 BRD:
 ASSIGN C+W ROUTE;
 ASSIGN C+L run length-freq-ri.ulp;
 ASSIGN C+R RIPUP;
-ASSIGN CS+R RIPUP@;;
+ASSIGN CS+R 'RIPUP @; ';
 ASSIGN C+E ratsnest;
 ASSIGN A+1 display preset_standard;
 ASSIGN A+2 display preset_top;
