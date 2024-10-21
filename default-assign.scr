@@ -33,7 +33,7 @@ ASSIGN A+5 'display none pads vias bplace bnames bstop bcream brestrict'
  
  
 SCH:
-ASSIGN C+W 'change layer nets; change style continuous; wire'
+ASSIGN C+W 'change layer nets; change style continuous; net'
 ASSIGN C+K 'change layer info; change style longdash; line'
 ASSIGN C+L 'CHANGE SIZE 0.05; CHANGE FONT PROPORTIONAL; CHANGE RATIO 8; LABEL XREF'
  
