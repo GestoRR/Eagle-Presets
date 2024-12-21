@@ -11,7 +11,6 @@ ASSIGN A+X 'MOVE'
 ASSIGN C+N 'NAME'
 ASSIGN C+V 'VALUE'
 ASSIGN C+P 'PASTE'
-ASSIGN C+T 'CHANGE LAYER INFO; CHANGE SIZE 0.254; CHANGE FONT PROPORTIONAL; CHANGE RATIO 16; TEXT'
 ASSIGN C+I 'INFO'
 ASSIGN C+Z 'UNDO'
 ASSIGN C+Y 'REDO'
@@ -30,14 +29,16 @@ ASSIGN A+2 'display preset_top'
 ASSIGN A+3 'display preset_bottom'
 ASSIGN A+4 'display none pads vias tplace tnames tstop tcream trestrict'
 ASSIGN A+5 'display none pads vias bplace bnames bstop bcream brestrict'
+ASSIGN C+T 'CHANGE LAYER TPLACE; CHANGE SIZE 1.27; CHANGE FONT VECTOR; CHANGE RATIO 16; TEXT' 
  
- 
+
 SCH:
 ASSIGN C+W 'change layer nets; change style continuous; net'
 ASSIGN C+K 'change layer info; change style longdash; line'
 ASSIGN C+L 'CHANGE SIZE 0.05; CHANGE FONT PROPORTIONAL; CHANGE RATIO 8; LABEL XREF'
+ASSIGN C+T 'CHANGE LAYER INFO; CHANGE SIZE 0.254; CHANGE FONT PROPORTIONAL; CHANGE RATIO 16; TEXT' 
  
- 
+
 LBR:
  
  
