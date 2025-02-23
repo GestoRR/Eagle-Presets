@@ -7,6 +7,10 @@ SCRIPT default-assign.scr;
 #
  
 BRD:
+Grid mm;
+Grid 0.2;
+Grid on;
+Change Width 0.4064mm;
 MENU '[bin/designlink.svg] Search and order : Run designlink-order.ulp -general;'\
      '[bin/pcb-service.svg] PCB Service : Run pcb-service.ulp;'\
 ;
