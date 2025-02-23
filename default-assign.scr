@@ -29,7 +29,8 @@ ASSIGN A+2 'display preset_top'
 ASSIGN A+3 'display preset_bottom'
 ASSIGN A+4 'display none pads vias tplace tnames tstop tcream trestrict'
 ASSIGN A+5 'display none pads vias bplace bnames bstop bcream brestrict'
-ASSIGN C+T 'CHANGE LAYER TPLACE; CHANGE SIZE 1.27; CHANGE FONT VECTOR; CHANGE RATIO 16; TEXT' 
+ASSIGN C+T 'CHANGE LAYER TPLACE; CHANGE SIZE 1.27; CHANGE FONT VECTOR; CHANGE RATIO 16; TEXT'
+ASSIGN A+W 'CHANGE WIDTH'
  
 
 SCH:
